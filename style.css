@@ -44,8 +44,6 @@ header p {
 nav {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.5rem 1rem;
 }
 
 nav ul {
@@ -55,6 +53,7 @@ nav ul {
 nav a {
   color: var(--accent);
   text-decoration: none;
+  margin: 0 0.6rem;
   font-weight: 600;
 }
 
@@ -133,7 +132,9 @@ footer {
   header h1 {
     font-size: 1.9rem;
   }
-  nav {
-    gap: 0.4rem 0.9rem;
+  nav a {
+    display: inline-block;
+    margin: 0.3rem 0.5rem;
   }
 }
+
