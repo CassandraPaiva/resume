@@ -51,7 +51,6 @@ nav {
 nav a {
   color: var(--accent);
   text-decoration: none;
-  margin: 0 0.6rem;
   font-weight: 600;
 }
 
