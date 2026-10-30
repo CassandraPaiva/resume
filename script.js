@@ -1,5 +1,7 @@
 //Script goes here
 document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById("year").textContent = new Date().getFullYear();
+
 const toggle = document.getElementById("theme-toggle");
 
 toggle.addEventListener("click", () => {
