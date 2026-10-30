@@ -48,6 +48,10 @@ nav {
   gap: 0.5rem 1rem;
 }
 
+nav ul {
+  justify-content: center;
+}
+
 nav a {
   color: var(--accent);
   text-decoration: none;
